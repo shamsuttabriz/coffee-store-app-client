@@ -24,7 +24,7 @@ function SignIn() {
       };
       console.log("signininfo: ", signInInfo);
       // Update last sign in database
-      fetch('http://localhost:3000/users', {
+      fetch('https://coffee-store-server-ivory-nine.vercel.app/users', {
         method: "PATCH",
         headers: {
           'Content-Type': 'application/json',

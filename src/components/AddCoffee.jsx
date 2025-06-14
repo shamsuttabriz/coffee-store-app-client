@@ -10,7 +10,7 @@ function AddCoffee() {
     console.log(newCoffee);
 
     // Send data to server
-    fetch("http://localhost:3000/coffees", {
+    fetch("https://coffee-store-server-ivory-nine.vercel.app/coffees", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

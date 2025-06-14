@@ -15,7 +15,7 @@ function UpdateCoffee() {
     console.log(updatedCoffee);
 
     // send updated coffee to the bd
-    fetch(`http://localhost:3000/coffees/${_id}`, {
+    fetch(`https://coffee-store-server-ivory-nine.vercel.app/coffees/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

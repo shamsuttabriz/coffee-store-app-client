@@ -20,7 +20,7 @@ function Users() {
     }).then((result) => {
       if (result.isConfirmed) {
         // Delete starting
-        fetch(`http://localhost:3000/users/${id}`, {
+        fetch(`https://coffee-store-server-ivory-nine.vercel.app/users/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
